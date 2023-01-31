@@ -1,0 +1,52 @@
+body {
+  margin: 75px 450px;
+  background-color: antiquewhite;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+h2 a {
+  color: #333;
+  text-decoration: none;
+}
+p {
+  color: #555;
+}
+.bg-dark {
+  padding: 20px 35px;
+  background-color: black;
+}
+.bg-dark h2 a {
+  color: greenyellow;
+}
+.bg-dark p.data {
+  color: #f5f5f5;
+}
+.bg-dark p.data a.cate {
+  color: chartreuse;
+  text-decoration: none;
+}
+.bg-dark p.data a.name {
+  color: gold;
+  text-decoration: none;
+}
+.bg-dark p.data .time {
+  color: cyan;
+}
+.bg-dark p.para {
+  color: #f5f5f5;
+}
+nav {
+  display: flex;
+}
+nav a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  text-decoration: none;
+  background-color: darkred;
+  color: white;
+}
+nav a:hover {
+  background-color: #b90202;
+}
